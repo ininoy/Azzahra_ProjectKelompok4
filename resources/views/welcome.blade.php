@@ -94,9 +94,9 @@
         <div class="row g-4 justify-content-center">
             @php
                 $contohKategori = [
-                    ['nama' => 'busana wanita anak', 'img' => 'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=600&q=80'],
-                    ['nama' => 'busana wanita dewasa', 'img' => 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80'],
-                    ['nama' => 'hijab', 'img' => 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80'],
+                    ['nama' => 'Busana Wanita Anak', 'img' => 'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=600&q=80'],
+                    ['nama' => 'Busana Wanita Dewasa', 'img' => 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80'],
+                    ['nama' => 'Hijab', 'img' => 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80'],
                 ];
             @endphp
             @foreach($contohKategori as $kat)
