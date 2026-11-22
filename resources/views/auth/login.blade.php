@@ -6,14 +6,14 @@
 <form action="{{ route('login.post') }}" method="POST">
     @csrf
     <div class="mb-3">
-        <label class="form-label small fw-semibold">Email</label>
+        <label class="form-label small fw-semibold">Email*</label>
         <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" autofocus>
         @error('email')
             <div class="text-danger small mt-1">{{ $message }}</div>
         @enderror
     </div>
     <div class="mb-3">
-            <label class="form-label small fw-semibold">Password (minimal 6 karakter)</label>
+            <label class="form-label small fw-semibold">Password*</label>
             <div class="position-relative">
                 <input type="password" name="password" id="password"
                     class="form-control pe-5 no-icon-validation @error('password') is-invalid @enderror">
