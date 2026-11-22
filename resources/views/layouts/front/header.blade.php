@@ -44,7 +44,7 @@
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-inno text-center">
                         @guest
                             <li><a class="dropdown-item" href="{{ route('login') }}">Masuk</a></li>
-                            <li><a class="dropdown-item" href="{{ route('register') }}">daftar</a></li>
+                            <li><a class="dropdown-item" href="{{ route('register') }}">Daftar</a></li>
                         @else
                             @if(Auth::user()->role === 'admin')
                                 <li><a class="dropdown-item fw-semibold text-primary" href="{{ url('/admin/dashboard') }}">Ke Halaman Admin</a></li>

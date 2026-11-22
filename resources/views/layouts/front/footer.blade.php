@@ -3,8 +3,10 @@
         <div class="row gy-4">
             <div class="col-md-4">
                 <div class="d-flex align-items-center gap-2 mb-3">
-                    <span class="brand-circle">in</span>
-                    <span class="brand-text">innoshop</span>
+                    <a href="{{ route('home') }}">
+                        <span class="brand-circle">AS</span>
+                        <span class="brand-text">Azzahra Shop</span>
+                    </a>
                 </div>
                 <p class="small">Platform belanja fashion dan gaya hidup modern dengan koleksi pilihan terbaik.</p>
             </div>
@@ -26,7 +28,7 @@
             </div>
         </div>
         <div class="text-center small border-top pt-4 mt-4">
-            © 2026 InnoShop Laravel Project. All rights reserved.
+            © 2026 Azzahra Shop Laravel Project. All rights reserved.
         </div>
     </div>
 </footer>
