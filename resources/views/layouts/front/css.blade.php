@@ -167,6 +167,22 @@
         color: #fff;
     }
 
+    .btn-inno-purple {
+        background-color: var(--inno-purple);
+        color: #fff;
+        border: none;
+        padding: 10px 24px;
+        font-size: 13.5px;
+        font-weight: 600;
+        border-radius: 4px;
+        transition: 0.2s;
+    }
+
+    .btn-inno-purple:hover {
+        background-color: #5c2dcb;
+        color: #fff;
+    }
+
     .hero-dots {
         position: absolute;
         bottom: 18px;

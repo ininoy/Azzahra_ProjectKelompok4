@@ -24,7 +24,7 @@
             <p class="hero-subtitle">
                 Diskon hingga 50% untuk beberapa item pilihan — jangan sampai ketinggalan, atau Anda harus menunggu satu tahun lagi!
             </p>
-            <a href="#katalog" class="btn btn-inno-gold">Beli sekarang!</a>
+            <a href="#katalog" class="btn btn-inno-purple">Beli sekarang!</a>
         </div>
         <div class="hero-dots">
             <span class="hero-dot active"></span>
